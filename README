@@ -1,0 +1,17 @@
+中文：
+文件说明：
+文件名称1：README
+内容：阅读（写在前面）
+文件名称2：编程代码
+内容：编程代码内容（包含函数fun,主函数main）
+文件名称3：心得感受
+内容：描述对于此次编程的设计，编码，修正，测试的感悟与收获，以及对于下次的要求。
+
+英文：
+Document description:
+File name 1: README
+Content: read (write first)
+File name 2: programming code
+Content: programming code content (including function fun, main function)
+File name 3: feelings
+Content: describe the design, coding, correction and test of this program, as well as the requirements for the next time.
