@@ -1,0 +1,67 @@
+#include "pch.h"
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+void fun()
+{
+	int a, b, c, d, e, f, g, h, i, k,l;
+
+		a = rand() % 100 + 1;
+		b = rand() % 99 + 1;
+		c = rand() % 98 + 1;
+		d = rand() % 5 + 1;
+	if(d == 1)
+	{
+		printf("%d + %d - %d =\n ", a, b, c);
+		l = a + b - c;
+		printf("结果为：%d", l);
+	}
+	else if(d == 2)
+	{ 
+		printf("%d * %d - %d = \n", b, d, c);
+		e = b * d - c;
+		printf("结果为：%d", e);
+	}
+	else if (d == 3)
+	{
+		printf("%d * %d + %d = \n", b, a, c);
+		f = b * a + c;
+		printf("结果为：%d", f);
+	}
+	else if (d == 4)
+	{
+		printf("%d - %d * %d = \n", b, c, a);
+		g = b - c * a;
+		printf("结果为：%d", g);
+	}
+	else if (d == 4)
+	{
+		printf("%d - %d * %d = \n", b, c, a);
+		h = b - c * a;
+		printf("结果为：%d", h);
+	}
+	else if (d == 5)
+	{
+		printf("%d - %d - %d = \n", b, c, a);
+		k = b - c - a;
+		printf("结果为：%d",k);
+	}
+
+}
+
+int main()
+{
+	srand((unsigned)time(NULL));
+	int i,n;
+	printf("1753534 Yang Haonan杨昊楠\n");
+
+	printf("请输入数字n(n>0)：\n");
+	scanf_s("%d", &n);
+	for(i = 0;i<n;i++)
+	{
+		fun();
+		printf("\n");
+	};
+}
+
